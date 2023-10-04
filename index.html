@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <title>Realtime Chat Application</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+    <section class="chat_section">
+
+        <div class="brand">
+            <img src="/logo.png" alt="logo">
+            <h1>WhatsApp</h1>
+        </div>
+
+        <div class="message_section"></div>
+       <div class="div">
+        <textarea id="textarea" cols="30" rows="1" placeholder="Type a message..."></textarea>
+       </div>
+
+    </section>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/script.js"></script>
+</body>
+</html>
